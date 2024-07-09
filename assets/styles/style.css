@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(~/fonts/static/Montserrat-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(~/fonts/static/Montserrat-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url(~/fonts/static/Montserrat-Medium.ttf);
+  font-weight: 500;
+}
+body {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+h2 {
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #dccfcf;
+  font-size: 16px;
+}
+
+.router-link-exact-active {
+  color: #fff
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
